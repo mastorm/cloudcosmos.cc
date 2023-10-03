@@ -6,6 +6,7 @@ export function Blog({ stack }: StackContext) {
     path: 'packages/blog'
   })
   stack.addOutputs({
-    URL: blog.url
+    URL: blog.url,
+    
   })
 }
