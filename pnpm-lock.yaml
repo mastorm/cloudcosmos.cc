@@ -29,6 +29,9 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.0.0
         version: 5.0.0(astro@3.2.2)(tailwindcss@3.3.3)
+      '@fontsource-variable/jetbrains-mono':
+        specifier: ^5.0.15
+        version: 5.0.15
       astro:
         specifier: ^3.2.2
         version: 3.2.2
@@ -2223,6 +2226,10 @@ packages:
   /@fastify/busboy@2.0.0:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
+
+  /@fontsource-variable/jetbrains-mono@5.0.15:
+    resolution: {integrity: sha512-Gxo5phOnb87GfX/cLO3zgd/aqNueuAbbzgcOhDmL0HSU4ttLZZzYMTL7/qO0R13FAaU5mkRX67XXyVYZJ1MMTw==}
+    dev: false
 
   /@graphql-tools/executor@0.0.18(graphql@16.8.1):
     resolution: {integrity: sha512-xZC0C+/npXoSHBB5bsJdwxDLgtl1Gu4fL9J2TPQmXoZC3L2N506KJoppf9LgWdHU/xK04luJrhP6WjhfkIN0pQ==}
